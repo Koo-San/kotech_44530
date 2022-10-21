@@ -124,6 +124,17 @@ header {
     color: var(--btext);
 }
 
+/*Responsive para screens mas pequeñas*/
+
+@media screen and (max-width: 750px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
 /*CIERRE NAV BAR*/
 
 /*normalizacion de footer*/
@@ -258,6 +269,14 @@ header {
     font-size: 1.4rem;
 }
 
+/*NOSOTROS*/
+
+.banner_nosotros {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    max-height: fit-content;
+}
+
 
 
 /*SERVICIOS*/
@@ -303,11 +322,7 @@ header {
     display: flex;
 }
 
-.banner_nosotros {
-    background-color: var(--primary);
-    color: #FFFFFF;
 
-}
 
 .pregunta a {
     padding: 0.5rem;
@@ -327,15 +342,4 @@ header {
     padding: var(--sp-xs);
     background-color: #CCC;
     border: 1px solid grey
-}
-
-@media screen and (max-width: 688px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar .menu {
-        justify-content: center;
-    }
 }
