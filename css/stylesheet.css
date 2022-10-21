@@ -86,7 +86,7 @@ img {
 
 header {
     background-color: var(--accent);
-    padding: var(--sp-s);
+    padding: 1rem;
 }
 
 /*NAV BAR*/
@@ -99,6 +99,7 @@ header {
 
 /* hacer la imagen de logo más pequeña*/
 .navbar .navbar__link {
+    display: flex;
     min-width: 80px;
     max-width: 80px;
 }
@@ -108,11 +109,11 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .menu .menu__link {
-    padding: var(--sp-xs);
+    padding: 1rem;
     border-radius: 50px;
     transition: background .3s ease-in-out, color .3s ease-in-out;
 }
@@ -143,14 +144,16 @@ header {
     background-color: #D9D9D9;
     display: grid;
     place-items: center;
+    text-align: center;
+
 }
 
 .bienvenida h2 {
-    font-size: var(--text-l);
+    font-size: 2.5em;
 }
 
 .bienvenida h3 {
-    font-size: var(--text-m);
+    font-size: 1.5em;
 }
 
 .bienvenida_texts {
@@ -158,23 +161,25 @@ header {
 }
 
 .bienvenida_contacto {
+    font-size: 1em;
     padding: 5px;
     border: solid 2px var(--accent);
     border-radius: 50px;
+    padding: 10px;
 }
 
 
 
 /*DIVISOR*/
 .divisor {
-    padding-top: var(--sp-l);
-    padding-top: var(--sp-l);
+    padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 /*Normalizar tamaño de imagenes (botones)*/
 #button_container img {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 133px;
     border-radius: 50px;
 }
 
@@ -182,6 +187,10 @@ header {
 
 #button_container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #button_container div {
@@ -192,61 +201,61 @@ header {
 /*Boton de servicios*/
 
 .servicios-button {
-    height: 600px;
-    width: 400px;
+    height: 400px;
+    width: 250px;
     background-color: #16262E;
-    padding: 50px;
+    padding: 25px;
     border-radius: 50px;
 }
 
 .servicios-button h4 {
     color: var(--background);
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .servicios-button p {
     color: var(--background);
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 /*Boton de Planes*/
 
 .planes-button {
-    height: 600px;
-    width: 400px;
+    height: 400px;
+    width: 250px;
     background-color: #16262E;
-    padding: 50px;
+    padding: 25px;
     border-radius: 50px;
 }
 
 .planes-button h4 {
     color: var(--background);
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .planes-button p {
     color: var(--background);
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 /*Boron de Nosotros*/
 
 .nosotros_button {
-    height: 600px;
-    width: 400px;
+    height: 400px;
+    width: 250px;
     background-color: #16262E;
-    padding: 50px;
+    padding: 25px;
     border-radius: 50px;
 }
 
 .nosotros_button h4 {
     color: var(--background);
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .nosotros_button p {
     color: var(--background);
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 
