@@ -113,15 +113,29 @@ header {
 
 .menu .menu__link {
     padding: var(--sp-xs);
+    border-radius: 50px;
     transition: background .3s ease-in-out, color .3s ease-in-out;
 }
 
 .menu .menu__link:hover {
+
     background-color: var(--links);
     color: var(--btext);
 }
 
 /*CIERRE NAV BAR*/
+
+/*normalizacion de footer*/
+.credit_footer {
+    display: grid;
+    place-items: center;
+    font-size: 1rem;
+
+}
+
+.credit_footer p {
+    margin: 6px;
+}
 
 /*Bienvenida*/
 
@@ -140,34 +154,100 @@ header {
 }
 
 .bienvenida_texts {
-    padding-top: var(--sp-l);
+    padding-bottom: 20px;
 }
 
 .bienvenida_contacto {
-    font-size: var(--text-xs);
-    padding: 0.15em;
-    border-style: solid;
-    border-width: 2px;
+    padding: 5px;
+    border: solid 2px var(--accent);
     border-radius: 50px;
 }
 
+
+
+/*DIVISOR*/
 .divisor {
     padding-top: var(--sp-l);
     padding-top: var(--sp-l);
 }
 
-/*Botones de servicios*/
-.bienvenida_buttons img {
-    width: 270px;
+/*Normalizar tamaño de imagenes (botones)*/
+#button_container img {
+    width: 300px;
     height: 200px;
+    border-radius: 50px;
 }
+
+/*Los 3 botones*/
+
+#button_container {
+    display: flex;
+}
+
+#button_container div {
+    align-items: center;
+    margin: 50px;
+}
+
+/*Boton de servicios*/
 
 .servicios-button {
-    display: grid;
-    place-items: center;
+    height: 600px;
+    width: 400px;
     background-color: #16262E;
+    padding: 50px;
+    border-radius: 50px;
 }
 
+.servicios-button h4 {
+    color: var(--background);
+    font-size: 5rem;
+}
+
+.servicios-button p {
+    color: var(--background);
+    font-size: 2rem;
+}
+
+/*Boton de Planes*/
+
+.planes-button {
+    height: 600px;
+    width: 400px;
+    background-color: #16262E;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.planes-button h4 {
+    color: var(--background);
+    font-size: 5rem;
+}
+
+.planes-button p {
+    color: var(--background);
+    font-size: 2rem;
+}
+
+/*Boron de Nosotros*/
+
+.nosotros_button {
+    height: 600px;
+    width: 400px;
+    background-color: #16262E;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.nosotros_button h4 {
+    color: var(--background);
+    font-size: 5rem;
+}
+
+.nosotros_button p {
+    color: var(--background);
+    font-size: 2rem;
+}
 
 
 
@@ -196,7 +276,7 @@ header {
 }
 
 
-/*FOOTER*/
+/*footer planes*/
 
 .footer_planes {
     background-color: var(--secondary);

@@ -35,7 +35,10 @@
             </ul>
         </nav>
     </header>
-    <main class="bienvenida main_container">
+    <main class="bienvenida">
+
+        <div class="divisor"></div>
+
         <div class="bienvenida_texts">
             <h2>Bienvenid@ a Kotech</h2>
             <h3>Servicio y mantenimiento de PCs</h3>
@@ -44,38 +47,40 @@
 
         <div class="divisor"></div>
 
-        <div class="bienvenida_buttons">
+        <div id="button_container">
             <a href="/pages/servicios.html">
-                <div class="botonesServ main_container">
-                    <div class="servicios-button">
-                        <img src="./img/servicetech.jpg" alt="serviciosimg">
-                        <h4>Servicios</h4>
-                        <p class="main_container">Ofrecemos una variedad de servicios,
-                            entre ellos servicio de instalacion de sistemas operativos
-                            windows y linux, instalacion de antivirus y software, armado de
-                            PC constumizable.</p>
-                    </div>
+                <div class="servicios-button">
+                    <img src="./img/servicetech.jpg" alt="serviciosimg">
+                    <h4>Servicios</h4>
+                    <p class="main_container">Ofrecemos una variedad de servicios,
+                        entre ellos servicio de instalacion de sistemas operativos
+                        windows y linux, instalacion de antivirus y software, armado de
+                        PC constumizable.</p>
                 </div>
             </a>
 
-            <div class="planes-button">
-                <h4>Planes</h4>
-                <img src="./img/mantenimiento.jpg" alt="planesimg">
-                <p class="main_container">Ofrecemos una serie de planes de mantenimiento de PCs esto
-                    incluye servicios de limpieza de equipos y hardware y
-                    rendimiento del equipo.</p>
-            </div>
+            <a href="/pages/planes.html">
+                <div class="planes-button">
+                    <img src="./img/mantenimiento.jpg" alt="planesimg">
+                    <h4>Planes</h4>
+                    <p class="main_container">Ofrecemos una serie de planes de mantenimiento de PCs esto
+                        incluye servicios de limpieza de equipos y hardware y
+                        rendimiento del equipo.</p>
+                </div>
+            </a>
 
-            <div class="Nosotros">
-                <h4>Nosotros</h4>
-                <img src="./img/nosotros.jpg" alt="nostrosimg">
-                <p class="main_container">Una pequena introduccion de quienes somos y a que nos dedicamos!
-                    Nos parece primordial tener una relacion cercana con nuestros
-                    clientes.</p>
-            </div>
+            <a href="/pages/nosotros.html">
+                <div class="nosotros_button">
+                    <img src="./img/nosotros.jpg" alt="nostrosimg">
+                    <h4>Nosotros</h4>
+                    <p class="main_container">Una pequena introduccion de quienes somos y a que nos dedicamos!
+                        Nos parece primordial tener una relacion cercana con nuestros
+                        clientes.</p>
+                </div>
+            </a>
         </div>
     </main>
-    <footer>
+    <footer class="credit_footer">
         <p>Web desarrollada por KoTech</p>
         <p>Nuñez, CABA</p>
         <p>2022</p>
