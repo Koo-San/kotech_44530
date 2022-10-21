@@ -123,6 +123,50 @@ header {
 
 /*CIERRE NAV BAR*/
 
+/*Bienvenida*/
+
+.bienvenida {
+    background-color: #D9D9D9;
+    display: grid;
+    place-items: center;
+}
+
+.bienvenida h2 {
+    font-size: var(--text-l);
+}
+
+.bienvenida h3 {
+    font-size: var(--text-m);
+}
+
+.bienvenida_texts {
+    padding-top: var(--sp-l);
+}
+
+.bienvenida_contacto {
+    font-size: var(--text-xs);
+    padding: 0.15em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+}
+
+.divisor {
+    padding-top: var(--sp-l);
+    padding-top: var(--sp-l);
+}
+
+/*Botones de servicios*/
+.bienvenida_buttons img {
+    width: 270px;
+    height: 200px;
+}
+
+.servicios-button {
+    display: grid;
+    place-items: center;
+    background-color: #16262E;
+}
 
 
 
