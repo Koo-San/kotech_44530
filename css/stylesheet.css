@@ -187,6 +187,10 @@ header {
     padding-top: 4rem;
 }
 
+#button_container:hover{
+    
+}
+
 /*Normalizar tamaño de imagenes (botones)*/
 #button_container img {
     width: 200px;
