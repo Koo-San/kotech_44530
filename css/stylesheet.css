@@ -290,11 +290,13 @@ header {
     color: var(--background);
     font-size: var(--text-xl);
     text-align: center;
+    letter-spacing: 1rem;
 }
 
 .servtextobanner{
     color: var(--background);
     text-align: left;
+    
 }
 
 .divisorbanner{
@@ -303,12 +305,25 @@ header {
     background-color: #CCC;
 }
 
-.fotoejemplo {
-    background-color: grey;
-    width: 85px;
-    height: 85px;
+.espaciadoServ{
+    width: 300px;
 }
 
+.servPriPar{
+    padding-top: 200px;
+}
+
+.fotoejemplo {
+    background-color: gray;
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+
+.adjustServ{
+    width: 240px;
+    height: 172px;
+}
 
 
 /*footer planes*/
@@ -327,6 +342,10 @@ header {
 
 .footer_planes p {
     display: flex;
+}
+
+.espaciadoFinal{
+    height: 100px;
 }
 
 
