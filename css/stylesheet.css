@@ -327,6 +327,15 @@ header {
 
 /* FIN DE LOS SERVICIOS*/
 
+/*Planes*/
+.espaciadofinalPlanes{
+    height: 200px;
+}
+
+.nosH2{
+    color: var(--btext);
+}
+
 /*footer planes*/
 
 .footer_planes {
