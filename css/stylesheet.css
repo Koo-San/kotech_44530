@@ -281,15 +281,26 @@ header {
 
 /*SERVICIOS*/
 
-.banner_nservicios {
-    background-color: var(--primary);
-    color: #FFFFFF;
+.servbanner{
+    background-color: #2E4756;
+    height: fit-content;
 }
 
-.banner_nservicios hr {
-    background-color: var(--links);
-    border: none;
-    height: 1px;
+.servtitulo{
+    color: var(--background);
+    font-size: var(--text-xl);
+    text-align: center;
+}
+
+.servtextobanner{
+    color: var(--background);
+    text-align: left;
+}
+
+.divisorbanner{
+    width: 10px;
+    height: 300px;
+    background-color: #CCC;
 }
 
 .fotoejemplo {
@@ -298,10 +309,6 @@ header {
     height: 85px;
 }
 
-.banner_nplanes {
-    background-color: var(--primary);
-    color: #FFFFFF;
-}
 
 
 /*footer planes*/
