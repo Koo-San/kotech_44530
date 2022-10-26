@@ -82,6 +82,14 @@ img {
     margin: auto;
 }
 
+.margintopJus{
+    margin-top:  50px;
+}
+
+.sepSmall{
+    width: 10px;
+}
+
 /*HEADER */
 
 header {
@@ -350,13 +358,29 @@ header {
     color: #EBECF2;
 }
 
-.footer_planes p {
-    display: flex;
+.footertitle{
+    font-size: 2em;
+    text-align: left;
+}
+
+.footertext{
+    font: 1em;
+    text-align: left;
+}
+.footergridFix{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+
+.footerPlanButton{
+    height: 40px;
+    
 }
 
 .espaciadoFinal{
     height: 100px;
 }
+
 
 
 
