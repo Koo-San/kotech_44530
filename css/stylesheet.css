@@ -435,31 +435,45 @@ header {
 }
 
 
+/*FIN DE PAGINA NOSOTROS*/
 
 
+/* CONTACTO */
 
-
-
-
-
-
-
-.pregunta a {
-    padding: 0.5rem;
-    border-radius: 50px;
-    border: 3px solid var(--links);
-    font-size: 1.5rem;
-    color: var(--btext);
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.banner_contacto {
-    background-color: var(--primary);
-    color: #FFFFFF;
+.divisorbannerCol{
+    width: 200px;
+    height: 300px;
+    background-color:var(--primary);
 }
 
-.conform .submitir {
-    margin-top: var(--sp-s);
-    padding: var(--sp-xs);
-    background-color: #CCC;
-    border: 1px solid grey
+.contactTitle{
+    font-size: 3em;
+    
+}
+
+.contactForm h3{
+    padding-top: 0.5em;
+    padding-bottom: 0.5m;
+}
+
+.contactForm input, textarea{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+}
+
+.contactSubButton{
+    padding: 5px;
+}
+
+.servtitulo2{
+    color: var(--accent);
+    font-size: var(--text-xl);
+    text-align: center;
+    letter-spacing: 0.5rem;
 }

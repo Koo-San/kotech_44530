@@ -40,45 +40,59 @@
             </ul>
         </nav>
     </header>
-    <div class="banner_contacto">
-        <h2 class="main_container">Contacto</h2>
-        <hr>
-        <p class="main_container">Ponete en contacto con nosotros para programar
-            una visita y presupuestar tu inconveniente. Responderemos a la
-            brevedad.
-            Una vez definido el presupuesto queda en vos decidir si preferis
-            que visitemos tu domicilio u oficiona o si pasaremos a buscar el
-            equipo para trabajar en el taller.</p>
+
+    <div class="row servbanner p-xl-4">
+        <div class="col d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="servtitulo">
+                    Contacto
+                </div>
+            </div>
+        </div>
+        <div class="divisorbanner"></div>
+        <div class="col d-grid justify-content-center">
+            <div class="p-5 servtextobanner d-flex justify-content-center align-items-center servPriPar">
+                Ponete en contacto con nosotros para programar una visita y presupuestar tu
+                inconveniente. Responderemos a la brevedad.
+            </div>
+            <div class="p-5 servtextobanner d-flex justify-content-center align-items-center">
+                Una vez definido el presupuesto queda en vos decidir si preferis que visitemos tu
+                domicilio u oficiona o si pasaremos a buscar el equipo para trabajar en el taller
+                <div class="espaciadoServ"></div>
+            </div>
+        </div>
     </div>
 
-    <div class="conform main_container">
-        <h2>Ponete en contacto!</h2>
-        <form>
-            <h3>Nombre</h3>
-            <input type="text" id="fname" name="fname" placeholder="nombre">
+    <div class="">
 
-            <h3>Email</h3>
-            <input type="email" id="aemail" name="aemail" placeholder="correo">
+        <div class="main_container pt-5">
+            <h2 class="contactTitle servtitulo2 col justify-content-center align-items-center">Ponete en contacto!</h2>
+            <form class="contactForm d-grid col">
+                <h3>Nombre</h3>
+                <input type="text" id="fname" name="fname" placeholder="nombre">
 
-            <h3>Telefono (Whatsapp)</h3>
-            <input type="text" id="pwsp" name="pwsp" placeholder="whatsapp">
+                <h3>Email</h3>
+                <input type="email" id="aemail" name="aemail" placeholder="correo">
 
-            <h3>Explicacion de la consulta</h3>
-            <input type="text" id="econsulta" name="econsulta" placeholder="Explicanos que anda pasando...">
-            <br>
-            <input class="submitir" type="submit" value="Contactanos!">
-        </form>
+                <h3>Telefono (Whatsapp)</h3>
+                <input type="text" id="pwsp" name="pwsp" placeholder="whatsapp">
+
+                <h3>Explicacion de la consulta</h3>
+                <textarea name="question" id="question" cols="30" rows="5"></textarea>
+                <br>
+                <input class="mt-3 contactSubButton" type="submit" value="Contactanos!">
+            </form>
+        </div>
     </div>
 
-    <hr>
 
-    <div class="otrosmedios">
-        <h2>Otros medios de contacto</h2>
-        <h3>Whatsapp</h3>
-        <p>+54 11 1234-5678</p>
-        <h3>Mail</h3>
-        <p>info@kotech.com.ar</p>
-    </div>
+
+
+
+    <footer class="credit_footer">
+        <p>Web desarrollada por KoTech - Nuñez, CABA - 2022</p>
+    </footer>
+    <script href="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 
 </body>
