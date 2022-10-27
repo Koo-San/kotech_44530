@@ -86,9 +86,32 @@ img {
     margin-top:  50px;
 }
 
+.marginleftJus{
+    margin-left: 200px;
+}
+
 .sepSmall{
     width: 10px;
 }
+
+/*GRID SETTINGS*/
+.gridContSetup{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.gridRowSetup{
+    display: grid;
+    grid-template-rows: 2fr 1fr; 
+}
+
+.cajita{
+    width: 500px;
+    height: auto;
+}
+
+
 
 /*HEADER */
 
@@ -380,6 +403,43 @@ header {
 .espaciadoFinal{
     height: 100px;
 }
+/* Fin de planes */
+
+/*NOSOTROS*/
+
+.nosotros_title{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.nosotros_pic{
+    background: grey;
+    height: 150px;
+    width: 150px;
+}
+
+.nosotros_names{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+
+.nosotros_contactButton{
+    font-size: 16px;
+    font-weight: 500;
+    border: solid var(--primary) 2px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
 
 
 
