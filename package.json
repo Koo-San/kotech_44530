@@ -1,11 +1,26 @@
 {
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "bootstrap": "^5.2.2",
-    "hover.css": "^2.3.2",
-    "sass": "^1.55.0"
+  "name": "kotech_44530",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/index.scss css/translated.css"
   },
-  "devDependencies": {
-    "node-sass": "^7.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koo-San/kotech_44530.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koo-San/kotech_44530/issues"
+  },
+  "homepage": "https://github.com/Koo-San/kotech_44530#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
   }
 }
