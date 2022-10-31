@@ -1,0 +1,46 @@
+/*Planes*/
+.espaciadofinalPlanes{
+    height: 200px;
+}
+
+.nosH2{
+    color: var(--btext);
+}
+
+/*footer planes*/
+
+.footer_planes {
+    background-color: var(--secondary);
+}
+
+.footer_planes a {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid #3C7A89;
+    font-size: 1.5rem;
+    color: #EBECF2;
+}
+
+.footertitle{
+    font-size: 2em;
+    text-align: left;
+}
+
+.footertext{
+    font: 1em;
+    text-align: left;
+}
+.footergridFix{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+
+.footerPlanButton{
+    height: 40px;
+    
+}
+
+.espaciadoFinal{
+    height: 100px;
+}
+/* Fin de planes */

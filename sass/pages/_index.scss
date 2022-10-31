@@ -1,0 +1,111 @@
+.bienvenida {
+    background-color: #D9D9D9;
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .bienvenida_contacto {
+        font-size: 1em;
+        border: solid 2px var(--accent);
+        border-radius: 50px;
+        padding: 10px;
+    }
+    
+}
+
+.divisor {
+    padding-top: 4rem;
+    padding-top: 4rem;
+}
+
+/* BOTONES PAGINA DE INICIO*/
+
+/*Normalizar tamaño de imagenes (botones)*/
+#button_container img {
+    width: 200px;
+    height: 133px;
+    border-radius: 50px;
+}
+
+/*Los 3 botones*/
+
+#button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#button_container div {
+    align-items: center;
+    margin: 50px;
+}
+
+/*Boton de servicios*/
+
+.servicios-button {
+    height: 400px;
+    width: 250px;
+    background-color: #16262E;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.servicios-button h4 {
+    color: var(--background);
+    font-size: 3rem;
+}
+
+.servicios-button p {
+    color: var(--background);
+    font-size: 1.4rem;
+}
+
+/*Boton de Planes*/
+
+.planes-button {
+    height: 400px;
+    width: 250px;
+    background-color: #16262E;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.planes-button h4 {
+    color: var(--background);
+    font-size: 3rem;
+}
+
+.planes-button p {
+    color: var(--background);
+    font-size: 1.4rem;
+}
+
+/*Boron de Nosotros*/
+
+.nosotros_button {
+    height: 400px;
+    width: 250px;
+    background-color: #16262E;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.nosotros_button h4 {
+    color: var(--background);
+    font-size: 3rem;
+}
+
+.nosotros_button p {
+    color: var(--background);
+    font-size: 1.4rem;
+}

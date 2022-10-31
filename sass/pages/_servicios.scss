@@ -1,0 +1,47 @@
+/*SERVICIOS*/
+
+.servbanner{
+    background-color: #2E4756;
+    height: fit-content;
+}
+
+.servtitulo{
+    color: var(--background);
+    font-size: var(--text-xl);
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+.servtextobanner{
+    color: var(--background);
+    text-align: left;
+    
+}
+
+.divisorbanner{
+    width: 10px;
+    height: 300px;
+    background-color: #CCC;
+}
+
+.espaciadoServ{
+    width: 300px;
+}
+
+.servPriPar{
+    padding-top: 200px;
+}
+
+.fotoejemplo {
+    background-color: gray;
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+
+.adjustServ{
+    width: 240px;
+    height: 172px;
+}
+
+/* FIN DE LOS SERVICIOS*/

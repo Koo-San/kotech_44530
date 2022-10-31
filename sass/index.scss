@@ -1,0 +1,26 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
+
+/*MISCS*/
+
+@import './misc/normalize';
+@import './misc/variables';
+
+
+/*PARTIALS*/
+
+@import './partials/footer';
+@import './partials/header';
+
+/*PAGES*/
+
+@import './pages/contacto';
+@import './pages/index';
+@import './pages/nosotros';
+@import './pages/planes';
+@import './pages/servicios';
+
+/*MEDIAS*/
+
+@import './misc/medias';
