@@ -3,21 +3,19 @@
 .servbanner{
     background-color: #2E4756;
     height: fit-content;
-}
 
-.servtitulo{
-    color: var(--background);
-    font-size: var(--text-xl);
-    text-align: center;
-    letter-spacing: 1rem;
+    .servtitulo{
+        color: var(--background);
+        font-size: var(--text-xl);
+        text-align: center;
+        letter-spacing: 1rem;
+    }
+    .servtextobanner{
+        color: var(--background);
+        text-align: left;
+        
+    }
 }
-
-.servtextobanner{
-    color: var(--background);
-    text-align: left;
-    
-}
-
 .divisorbanner{
     width: 10px;
     height: 300px;

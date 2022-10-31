@@ -14,20 +14,27 @@
     
 }
 
-.contactForm h3{
-    padding-top: 0.5em;
-    padding-bottom: 0.5m;
-}
-
-.contactForm input, textarea{
-    border-radius: 30px;
+.contactForm {
+    h3{
+        padding-top: 0.5em;
+        padding-bottom: 0.5m;
+    }
+    input{
+        border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.1);
     opacity: 0.6;
-}
-
-.contactSubButton{
+    }
+    textarea{
+        border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+    }
+    .contactSubButton{
     padding: 5px;
 }
+}
+
+
 
 .servtitulo2{
     color: var(--accent);

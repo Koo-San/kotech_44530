@@ -136,12 +136,17 @@ header {
   padding-top: 0.5em;
   padding-bottom: 0.5m; }
 
-.contactForm input, textarea {
+.contactForm input {
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.1);
   opacity: 0.6; }
 
-.contactSubButton {
+.contactForm textarea {
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.6; }
+
+.contactForm .contactSubButton {
   padding: 5px; }
 
 .servtitulo2 {
@@ -276,13 +281,12 @@ header {
 /*footer planes*/
 .footer_planes {
   background-color: var(--secondary); }
-
-.footer_planes a {
-  padding: 0.5rem;
-  border-radius: 50px;
-  border: 1px solid #3C7A89;
-  font-size: 1.5rem;
-  color: #EBECF2; }
+  .footer_planes a {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid #3C7A89;
+    font-size: 1.5rem;
+    color: #EBECF2; }
 
 .footertitle {
   font-size: 2em;
@@ -307,16 +311,14 @@ header {
 .servbanner {
   background-color: #2E4756;
   height: fit-content; }
-
-.servtitulo {
-  color: var(--background);
-  font-size: var(--text-xl);
-  text-align: center;
-  letter-spacing: 1rem; }
-
-.servtextobanner {
-  color: var(--background);
-  text-align: left; }
+  .servbanner .servtitulo {
+    color: var(--background);
+    font-size: var(--text-xl);
+    text-align: center;
+    letter-spacing: 1rem; }
+  .servbanner .servtextobanner {
+    color: var(--background);
+    text-align: left; }
 
 .divisorbanner {
   width: 10px;
@@ -350,8 +352,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .menu {
-    flex-direction: column; }
+    .navbar .menu {
+      flex-direction: column; }
   /*WELCOME PAGE FIX*/
   .bienvenida_texts {
     padding-bottom: 2rem; }
